@@ -4,12 +4,6 @@
     {
         public string Tipo { get; set; }
 
-        public Carro(string modelo, int ano, double capacidadeTanque, double consumoPorKm, string tipo)
-            : base(modelo, ano, capacidadeTanque, consumoPorKm)
-        {
-            Tipo = tipo;
-        }
-
         public override string ExibirDetalhes()
         {
             string mensagemDetalhes = base.ExibirDetalhes();

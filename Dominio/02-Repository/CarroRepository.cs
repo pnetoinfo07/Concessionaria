@@ -1,11 +1,12 @@
 ﻿using Dapper.Contrib.Extensions;
+using Dominio._01_Core.Interfaces.Repository;
 using Dominio.Entidades;
 using Microsoft.Extensions.Configuration;
 using System.Data.SQLite;
 
 namespace Dominio._02_Repository
 {
-    public class CarroRepository
+    public class CarroRepository : ICarroRespository
     {
         private readonly string ConnectionString;
         public CarroRepository(IConfiguration config)

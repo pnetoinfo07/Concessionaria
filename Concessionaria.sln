@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{5AE34D78-B42A-4A5B-8DC2-25600021569F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{CF600622-B182-4A54-8C6A-440810627E9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{CF600622-B182-4A54-8C6A-440810627E9B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{A32F7C09-0DE5-4763-8682-D92D0B90B6C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{A32F7C09-0DE5-4763-8682-D92D0B90B6C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5AE34D78-B42A-4A5B-8DC2-25600021569F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5AE34D78-B42A-4A5B-8DC2-25600021569F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5AE34D78-B42A-4A5B-8DC2-25600021569F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5AE34D78-B42A-4A5B-8DC2-25600021569F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CF600622-B182-4A54-8C6A-440810627E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF600622-B182-4A54-8C6A-440810627E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF600622-B182-4A54-8C6A-440810627E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU

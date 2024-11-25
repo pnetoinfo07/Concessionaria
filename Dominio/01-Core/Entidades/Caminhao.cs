@@ -7,12 +7,6 @@ namespace Dominio.Entidades
     {
         public double CapacidadeCarga { get; set; }
 
-        public Caminhao(string modelo, int ano, double capacidadeTanque, double consumoPorKm, double capacidadeCarga)
-            : base(modelo, ano, capacidadeTanque, consumoPorKm)
-        {
-            CapacidadeCarga = capacidadeCarga;
-        }
-
         public override string ExibirDetalhes()
         {
             string mensagemDetalhes = base.ExibirDetalhes();

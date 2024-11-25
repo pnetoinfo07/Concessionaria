@@ -1,11 +1,12 @@
 ﻿using Dapper.Contrib.Extensions;
+using Dominio._01_Core.Interfaces.Repository;
 using Dominio.Entidades;
 using Microsoft.Extensions.Configuration;
 using System.Data.SQLite;
 
 namespace Dominio._02_Repository
 {
-    public class CaminhaoRepository
+    public class CaminhaoRepository :ICaminhaoRepository
     {
         private readonly string ConnectionString;
         public CaminhaoRepository(IConfiguration config)
